@@ -846,7 +846,16 @@ token box
     padding-right: 10px;
   }
 }
+
+@media (min-width: 991px){
+  .mobile_view{
+    display: none;
+  }
+}
 @media (max-width: 991px) {
+  .desktop_view{
+    display: none;
+  }
   .box .token {
     overflow: hidden;
   }
@@ -938,7 +947,7 @@ header
 }
 
 .extra_margin{
-  margin-top: 100px;
+  margin-top: 250px;
 }
 .header-area .main-nav .nav li a {
   display: block;
