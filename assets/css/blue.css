@@ -1243,7 +1243,9 @@ header
   }
 }
 @media (max-width: 991px) {
-
+.welcome-area{
+  text-align: center;
+}
   
   .header-area {
     background: #fff;
