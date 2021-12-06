@@ -482,7 +482,29 @@ buttons
 
 .socials{
   display: flex;
+  width: inherit;
+  width: auto;
+  justify-content: space-evenly;
+  border-left: 4px solid #fff;
+
 }
+
+.socials a{
+  background: #fff;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    transition: all .3s;
+    margin: auto;
+}
+
+
 /* 
 ---------------------------------------------
 token box
@@ -914,6 +936,10 @@ header
 .header-area .main-nav .nav li {
   margin-left: 35px;
 }
+
+.extra_margin{
+  margin-top: 100px;
+}
 .header-area .main-nav .nav li a {
   display: block;
   font-weight: 600;
@@ -1243,6 +1269,13 @@ header
   }
 }
 @media (max-width: 991px) {
+  .extra_margin{
+    margin-top: 0px;
+  }
+  .socials{
+    border-left: none;
+
+  }
 .welcome-area{
   text-align: center;
 }
@@ -2114,11 +2147,11 @@ team
 .team-round .team-name {
   text-align: center;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 30px;
   margin-top: -30px;
-  color: #3B566E;
+  color: #000;
 }
 .team-round span {
   display: block;
@@ -2179,10 +2212,10 @@ team
 .team-square .team-name {
   text-align: center;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 30px;
-  color: #3B566E;
+  color: #0000;
 }
 .team-square span {
   display: block;
@@ -2418,7 +2451,7 @@ block explorer
   height: 100%;
   outline: none;
   border: none;
-  border: 2px solid #3266C6;
+  border: 2px solid #00B1E2;
   padding-left: 20px;
   padding-right: 20px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2444,7 +2477,7 @@ block explorer
   padding: 0px;
   z-index: 2;
   border: none;
-  background: #3266C6;
+  background: #00B1E2;
   color: #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
