@@ -74,7 +74,7 @@
                   padding-left: 12px;
                   padding-right: 12px;
                   "
-                ><a href="https://www.dextools.io/app/">
+                ><a href="https://pancakeswap.finance">
                   <span style="margin-top: -2px"><img src="assets\images\pancake.png" width="16px"></span><span class="buy_coin" style="
                   font-size: 14px;
                   font-weight: 600;
@@ -187,9 +187,10 @@
                 <input
                   type="text"
                   placeholder="0xfe2ad4acb847236538c26c972bd41a308d4afc7f"
+                  id="myInput"
                   />
                 <span
-                  ><button class="btn-white-line search_button">
+                  ><button onclick="myFunction()" class="btn-white-line search_button">
                     <i class="fa fa-copy"></i>&nbsp copy
                   </button></span
                 >
@@ -204,9 +205,10 @@
       <input
         type="text"
         placeholder="0xfe2ad4acb847236538c26c972bd41a308d4afc7f"
+        id="myInput"
       />
       <span class=""
-        ><button class=" mt-2 btn-white-line search_button btn-block" style="width: -webkit-fill-available !important">
+        ><button onclick="myFunction()" class=" mt-2 btn-white-line search_button btn-block" style="width: -webkit-fill-available !important">
           <i class="fa fa-copy"></i>&nbsp copy
         </button></span
       >
@@ -883,7 +885,20 @@
       </div>
     </footer>
     <!-- ***** Contact & Footer End ***** -->
-
+    <script>
+      function myFunction() {
+        /* Get the text field */
+        var copyText = document.getElementById("myInput");
+      
+        /* Select the text field */
+        copyText.select();
+        copyText.setSelectionRange(0, 99999); /* For mobile devices */
+      
+        /* Copy the text inside the text field */
+        navigator.clipboard.writeText(copyText.value);
+       
+      }
+      </script>
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
