@@ -185,12 +185,12 @@ global styles
 --------------------------------------------- 
 */
 ::selection {
-  background: #3b3b3b;
+  background: #0b1217;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #3b3b3b;
+  background: #0b1217;
   color: #fff;
 }
 
@@ -241,7 +241,7 @@ global styles
 .left-heading .section-title {
   font-weight: 400;
   font-size: 30px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.3px;
   line-height: 40px;
   margin-bottom: 20px;
@@ -253,7 +253,7 @@ global styles
 .center-heading .section-title {
   font-weight: 400;
   font-size: 30px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.3px;
   line-height: 40px;
   margin-bottom: 20px;
@@ -277,7 +277,7 @@ global styles
   margin-bottom: 30px;
 }
 .left-text p.dark {
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .left-text ul {
   color: #DEDEDE;
@@ -366,8 +366,8 @@ buttons
   -moz-border-radius: 100px;
   border-radius: 100px;
   position: relative;
-  border: 1px solid #3b3b3b;
-  background: #3b3b3b;
+  border: 1px solid #0b1217;
+  background: #0b1217;
   font-weight: 500;
   font-size: 14px;
   color: #fff;
@@ -397,10 +397,10 @@ buttons
   -moz-border-radius: 100px;
   border-radius: 100px;
   position: relative;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   font-weight: 500;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
@@ -413,7 +413,7 @@ buttons
   cursor: pointer;
 }
 .btn-secondary-line:hover {
-  background: #3b3b3b;
+  background: #0b1217;
   color: #fff;
 }
 
@@ -427,10 +427,10 @@ buttons
   -moz-border-radius: 100px;
   border-radius: 100px;
   position: relative;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   font-weight: 500;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.5px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
@@ -441,7 +441,7 @@ buttons
   cursor: pointer;
 }
 .btn-primary-line:hover {
-  background: #3b3b3b;
+  background: #0b1217;
   color: #fff;
 }
 
@@ -468,10 +468,13 @@ buttons
   cursor: pointer;
   padding-left: 30px;
   padding-right: 30px;
+  background: #c21e28 !important;
 }
 .btn-white-line:hover {
-  background: #fff;
-  color: #3b3b3b;
+  background: #fff !important;
+  color: #c21e28;
+  border: 1px solid #c21e28   ;
+
 }
 
 .app-download {
@@ -553,7 +556,7 @@ token box
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1.4px;
-  color: #3b3b3b;
+  color: #0b1217;
   margin-bottom: 20px;
 }
 .box .token .countdown {
@@ -584,7 +587,7 @@ token box
   margin-bottom: 0px;
 }
 .box .token .token-input {
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   height: 46px;
   overflow: hidden;
   -webkit-border-radius: 100px;
@@ -611,7 +614,7 @@ token box
   position: absolute;
   width: 10%;
   height: 24px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   left: 25%;
   top: -1px;
   line-height: 24px;
@@ -619,13 +622,13 @@ token box
   background: #E6EEF2;
   cursor: pointer;
   font-size: 7px;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .box .token .token-input .fa-minus {
   position: absolute;
   width: 10%;
   height: 23px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   left: 25%;
   top: 22px;
   line-height: 24px;
@@ -633,7 +636,7 @@ token box
   background: #E6EEF2;
   cursor: pointer;
   font-size: 7px;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .box .token .token-input button, .box .token .token-input a {
   position: absolute;
@@ -647,7 +650,7 @@ token box
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.5px;
-  color: #3b3b3b;
+  color: #0b1217;
   cursor: pointer;
 }
 .box .token-progress {
@@ -667,7 +670,7 @@ token box
 .box .token-progress ul .progress-active {
   position: absolute;
   height: 5px;
-  background: #3b3b3b;
+  background: #0b1217;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -707,7 +710,7 @@ token box
   opacity: 0.44;
 }
 .box .token-progress ul li.item.complate:before, .box .token-progress ul li.item.complate:after {
-  background: #3b3b3b;
+  background: #0b1217;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -720,7 +723,7 @@ token box
   display: block;
   font-weight: 500;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   margin-bottom: 2px;
   padding-left: 3px;
 }
@@ -743,7 +746,7 @@ token box
   width: 35%;
   font-weight: 400;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.22px;
   height: 38px;
   line-height: 38px;
@@ -790,7 +793,7 @@ token box
   display: inline-block;
   width: 32px;
   height: 32px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   position: relative;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -800,7 +803,7 @@ token box
   margin-left: 5px;
 }
 .box .token-payment .radios .form-radio input:checked + label {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .box .token-payment .radios .form-radio input:checked + label i {
   color: #fff;
@@ -824,7 +827,7 @@ token box
   height: 32px;
   line-height: 30px;
   text-align: center;
-  color: #3b3b3b;
+  color: #0b1217;
   font-size: 14px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -833,7 +836,7 @@ token box
   letter-spacing: 0px;
 }
 .box .token-payment .radios .form-radio label:hover {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .box .token-payment .radios .form-radio label:hover i {
   color: #fff;
@@ -850,6 +853,7 @@ token box
   .mobile_view{
     display: none;
   }
+
 }
 @media (max-width: 991px) {
   .desktop_view{
@@ -962,7 +966,7 @@ header
   border: transparent;
 }
 .header-area .main-nav .nav li a:hover {
-  color: #DEDEDE;
+  color: #c21e28 !important;
 }
 .header-area .main-nav .nav li a.btn-nav-line {
   padding-left: 25px;
@@ -974,11 +978,11 @@ header
   line-height: 34px;
   letter-spacing: 0.5px;
   background: #fff;
-  color: #3b3b3b;
+  color: #c21e28;
 }
 .header-area .main-nav .nav li a.btn-nav-line:hover {
   background: #fff;
-  color: #3b3b3b;
+  color: #c21e28;
 }
 .header-area .main-nav .nav li a.btn-nav-box {
   padding-left: 25px;
@@ -989,7 +993,7 @@ header
   border-radius: 100px;
   line-height: 34px;
   background: #fff;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.5px;
 }
 .header-area .main-nav .nav li a.btn-nav-box:hover {
@@ -1015,7 +1019,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3b3b3b;
+  background-color: #0b1217;
   display: block;
   position: absolute;
   width: 30px;
@@ -1028,7 +1032,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #3b3b3b;
+  background-color: #0b1217;
   display: block;
   position: absolute;
   width: 30px;
@@ -1067,14 +1071,14 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #3b3b3b;
+  background-color: #0b1217;
 }
 .header-area .main-nav .menu-trigger.active span:after {
   -moz-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #3b3b3b;
+  background-color: #0b1217;
 }
 .header-area .main-nav .lang {
   float: right;
@@ -1230,37 +1234,41 @@ header
   margin-top: 22px !important;
 }
 .header-area.header-sticky .nav li a {
-  color: #3b3b3b;
+  color: #0b1217;
+}
+
+.header-area.header-sticky .nav li a:active {
+  color: #c21e28 !important;
 }
 .header-area.header-sticky .nav li a:hover {
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .header-area.header-sticky .nav li a.btn-nav-line {
-  border: 1px solid #3b3b3b;
-  color: #3b3b3b;
+  border: 1px solid #0b1217;
+  color: #0b1217;
 }
 .header-area.header-sticky .nav li a.btn-nav-line:hover {
-  background: #3b3b3b;
-  border: 1px solid #3b3b3b;
+  background: #0b1217;
+  border: 1px solid #0b1217;
   color: #fff;
 }
 .header-area.header-sticky .nav li a.btn-nav-box {
-  border: 1px solid #3b3b3b;
-  background: #3b3b3b;
+  border: 1px solid #0b1217;
+  background: #0b1217;
   color: #fff;
 }
 .header-area.header-sticky .nav li a.btn-nav-box:hover {
   background: none;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .header-area.header-sticky .lang {
   margin-top: 22px !important;
 }
 .header-area.header-sticky .lang .selected {
-  border: 1px solid #3b3b3b;
+  border: 1px solid #c21e28;
 }
 .header-area.header-sticky .lang .selected span, .header-area.header-sticky .lang .selected i {
-  color: #3b3b3b;
+  color: #0b1217;
   font-weight: 600;
   font-size: 12px;
 }
@@ -1271,6 +1279,26 @@ header
   }
 }
 
+#header_links li.active{
+  color: #c21e28 !important;
+}
+.selected{
+  color: #c21e28 !important;
+  background: #FFF !important;
+}
+
+.buy_coin{
+  color: #c21e28 !important
+}
+
+.selected:hover{
+  color: #fff !important;
+  background: #c21e28 !important;
+}
+
+.buy_coin:hover{
+  color: #fff !important
+}
 @media (max-width: 410px){
   .buy_coin{
     display: none;
@@ -1336,7 +1364,7 @@ header
     padding-left: 30px !important;
     border: none !important;
     background: #fff !important;
-    color: #3b3b3b !important;
+    color: #0b1217 !important;
   }
   .header-area .main-nav .nav li a:hover {
     background: #f5f5f5 !important;
@@ -1347,10 +1375,10 @@ header
     margin-right: 80px;
   }
   .header-area .main-nav .lang .selected {
-    border: 1px solid #3b3b3b;
+    border: 1px solid #0b1217;
   }
   .header-area .main-nav .lang .selected span, .header-area .main-nav .lang .selected i {
-    color: #3b3b3b;
+    color: #0b1217;
   }
   .header-area .main-nav .lang .flag-list {
     right: 88px;
@@ -1367,7 +1395,7 @@ welcome area
 --------------------------------------------- 
 */
 .welcome-area {
-  min-height: 620px;
+  min-height: 720px;
   position: relative;
 }
 .welcome-area.bg-top-right:before {
@@ -1464,7 +1492,7 @@ welcome area
   position: relative;
   line-height: 60px;
   font-size: 24px;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .welcome-area .scroll-to a:before {
   content: "";
@@ -1473,7 +1501,7 @@ welcome area
   top: -10px;
   width: 80px;
   height: 80px;
-  background: #3b3b3b;
+  background: #0b1217;
   opacity: 0.19;
   z-index: -1;
   -webkit-border-radius: 100px;
@@ -1580,7 +1608,7 @@ services
 .features-elliptical .features-title {
   font-weight: 400;
   font-size: 18px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.12px;
   margin-bottom: 20px;
 }
@@ -1626,7 +1654,7 @@ services
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  border: 1px dashed #3b3b3b;
+  border: 1px dashed #0b1217;
 }
 .features-line .icon {
   width: 100px;
@@ -1640,7 +1668,7 @@ services
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .features-line .icon i {
   display: block;
@@ -1653,7 +1681,7 @@ services
 .features-line .features-title {
   font-weight: 400;
   font-size: 18px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.12px;
   margin-bottom: 20px;
 }
@@ -1686,7 +1714,7 @@ services
   margin-bottom: 30px;
 }
 .features-bordered:hover {
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
 }
 .features-bordered .icon {
   margin-bottom: 25px;
@@ -1695,7 +1723,7 @@ services
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 1.12px;
-  color: #3b3b3b;
+  color: #0b1217;
   line-height: 28px;
   margin-bottom: 22px;
 }
@@ -1722,7 +1750,7 @@ services
   margin-left: 3px;
 }
 .features-bordered a:hover {
-  color: #3b3b3b;
+  color: #0b1217;
 }
 
 .features-shadow {
@@ -1740,12 +1768,12 @@ services
 .features-shadow .icon i {
   color: #6F8BA4;
   font-size: 30px;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 .features-shadow .features-title {
   font-weight: 400;
   font-size: 16px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1.12px;
   margin-bottom: 20px;
   line-height: 26px;
@@ -1803,7 +1831,7 @@ roadmap
 }
 .roadmap-full .roadmap-item-full .date {
   float: right;
-  color: #3b3b3b;
+  color: #0b1217;
   font-weight: 500;
   font-size: 25px;
   letter-spacing: 0.78px;
@@ -1824,10 +1852,10 @@ roadmap
   transition: all 0.3s ease 0s;
 }
 .roadmap-full .roadmap-item-full .status.complate {
-  background: #3b3b3b;
+  background: #c21e28;
 }
 .roadmap-full .roadmap-item-full .status.complate:before {
-  background: #3b3b3b;
+  background: #c21e28;
 }
 .roadmap-full .roadmap-item-full .status:before {
   content: "";
@@ -1859,7 +1887,7 @@ roadmap
   height: 66px;
   bottom: -24px;
   left: -32px;
-  border: 1px solid #CEE1F8;
+  border: 1px solid #c21e28;
   z-index: 1;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -1896,10 +1924,10 @@ roadmap
   transition: all 0.3s ease 0s;
 }
 .roadmap-modern-wrapper .roadmap-modern .status.complate {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-modern-wrapper .roadmap-modern .status.complate:before {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-modern-wrapper .roadmap-modern .status:before {
   content: "";
@@ -1934,7 +1962,7 @@ roadmap
   padding-left: 40px;
   font-weight: 400;
   font-size: 18px;
-  color: #3b3b3b;
+  color: #0b1217;
   margin-bottom: 20px;
 }
 .roadmap-modern-wrapper .roadmap-modern p {
@@ -1953,7 +1981,7 @@ roadmap
 .roadmap-modern-wrapper .owl-dots .owl-dot span {
   width: 13px;
   height: 13px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   background: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1961,11 +1989,11 @@ roadmap
   transition: all 0.3s ease 0s;
 }
 .roadmap-modern-wrapper .owl-dots .owl-dot.active span {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-modern-wrapper .owl-dots .owl-dot.active:hover span {
   transform: scale(1);
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-modern-wrapper .owl-dots .owl-dot:hover span {
   transform: scale(1.2);
@@ -1981,7 +2009,7 @@ roadmap
   background: #7fa1df;
 }
 .roadmap-lux-wrapper .roadmap-lux .header.complate {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-lux-wrapper .roadmap-lux .header.complate .date {
   float: left;
@@ -2039,7 +2067,7 @@ roadmap
 .roadmap-lux-wrapper .owl-dots .owl-dot span {
   width: 13px;
   height: 13px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
   background: none;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2047,11 +2075,11 @@ roadmap
   transition: all 0.3s ease 0s;
 }
 .roadmap-lux-wrapper .owl-dots .owl-dot.active span {
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-lux-wrapper .owl-dots .owl-dot.active:hover span {
   transform: scale(1);
-  background: #3b3b3b;
+  background: #0b1217;
 }
 .roadmap-lux-wrapper .owl-dots .owl-dot:hover span {
   transform: scale(1.2);
@@ -2127,8 +2155,8 @@ team
   border-radius: 100px;
   top: 0px;
   left: -160px;
-  background: #0b1217;
-  opacity: 0.83;
+  background: #c21e28;
+  opacity: 0.73;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2319,7 +2347,7 @@ faq
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 1px;
-  color: #3b3b3b;
+  color: #0b1217;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2337,7 +2365,7 @@ faq
   -moz-border-radius: 100px;
   border-radius: 100px;
   text-align: center;
-  background: #3b3b3b;
+  background: #0b1217;
   color: #fff;
   font-size: 12px;
   margin-right: 10px;
@@ -2452,7 +2480,7 @@ block explorer
   height: 100%;
   outline: none;
   border: none;
-  border: 2px solid #5a5e5f;
+  border: 1px solid #c21e28;
   padding-left: 20px;
   padding-right: 20px;
   -webkit-transition: all 0.3s ease 0s;
@@ -2466,7 +2494,7 @@ block explorer
 }
 .input input:focus {
   padding-left: 30px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
 }
 .input button {
   position: relative;
@@ -2517,7 +2545,7 @@ block explorer
   top: 0px;
   width: 2px;
   height: 32px;
-  background: #3b3b3b;
+  background: #0b1217;
   z-index: 2;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2531,7 +2559,7 @@ block explorer
   height: 10px;
   bottom: 0px;
   left: -4px;
-  background: #3b3b3b;
+  background: #0b1217;
   box-shadow: 0 1px 18px 10px #F3F8FF;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -2556,7 +2584,7 @@ block explorer
   padding-left: 60px;
   font-weight: 400;
   font-size: 16px;
-  color: #3b3b3b;
+  color: #0b1217;
   margin-top: 16px;
 }
 .block-explorer-features .item .text {
@@ -2592,7 +2620,7 @@ block explorer
 .block-explorer-section .table-latests.table-detail strong {
   font-weight: 600;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1px;
 }
 .block-explorer-section .table-latests td {
@@ -2602,13 +2630,13 @@ block explorer
 .block-explorer-section .table-latests thead {
   font-weight: 600;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 1px;
 }
 .block-explorer-section .table-latests tbody {
   font-weight: 400;
   font-size: 14px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.78px;
 }
 .block-explorer-section .table-latests tbody a {
@@ -2628,7 +2656,7 @@ block explorer
   position: absolute;
   width: 0%;
   height: 15px;
-  background: #3b3b3b;
+  background: #0b1217;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -2677,7 +2705,7 @@ footer .footer-top .contact {
 footer .footer-top .contact .section-title {
   font-weight: 500;
   font-size: 18px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.77px;
   line-height: 46px;
   margin-bottom: 10px;
@@ -2699,7 +2727,7 @@ footer .footer-top .contact ul.list li i {
   line-height: 40px;
   width: 30px;
   font-size: 16px;
-  color: #3b3b3b;
+  color: #0b1217;
 }
 footer .footer-top .contact ul.list li a, footer .footer-top .contact ul.list li span {
   float: left;
@@ -2707,7 +2735,7 @@ footer .footer-top .contact ul.list li a, footer .footer-top .contact ul.list li
   line-height: 40px;
   font-weight: 400;
   font-size: 16px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.69px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -2727,7 +2755,7 @@ footer .footer-top .contact .social li {
 }
 footer .footer-top .contact .social li a {
   font-size: 22px;
-  color: #3b3b3b;
+  color: #0b1217;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -2745,7 +2773,7 @@ footer .footer-top .contact-form {
 footer .footer-top .contact-form .section-title {
   font-weight: 500;
   font-size: 18px;
-  color: #3b3b3b;
+  color: #0b1217;
   letter-spacing: 0.77px;
   margin-bottom: 30px;
 }
@@ -2767,7 +2795,7 @@ footer .footer-top .contact-form .form-element input, footer .footer-top .contac
 }
 footer .footer-top .contact-form .form-element input:focus, footer .footer-top .contact-form .form-element textarea:focus {
   padding-left: 30px;
-  border: 1px solid #3b3b3b;
+  border: 1px solid #0b1217;
 }
 footer .footer-top .contact-form .form-element textarea {
   height: 120px;
@@ -2778,8 +2806,8 @@ footer .footer-top .contact-form .form-element button {
   width: 100%;
 }
 footer .footer-top .contact-form .form-element button:hover {
-  border: 1px solid #3b3b3b;
-  color: #3b3b3b;
+  border: 1px solid #0b1217;
+  color: #0b1217;
 }
 footer .footer-bottom {
   padding-top: 80px;
