@@ -90,11 +90,11 @@
 
               <!-- ***** Menu Start ***** -->
               <ul class="nav" id="header_links">
-                <li><a href="#welcome-1">HOME</a></li>
-                <li><a href="#token-sale">TOKENOMICS</a></li>
-                <li><a href="#roadmap">ROADMAP</a></li>
-                <li><a href="#team">TEAM</a></li>
-                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#welcome-1" id="button6" onclick="setColor('button6', '#c21e28')">HOME</a></li>
+                <li><a href="#token-sale" id="button1" onclick="setColor('button1', '#c21e28')">TOKENOMICS</a></li>
+                <li><a href="#roadmap" id="button2" onclick="setColor('button2', '#c21e28')">ROADMAP</a></li>
+                <li><a href="#team" id="button3" onclick="setColor('button3', '#c21e28')">TEAM</a></li>
+                <li><a href="#contact" id="button4" onclick="setColor('button4', '#c21e28')">CONTACT</a></li>
               </ul>
               <a class="menu-trigger">
                 <span>Menu</span>
@@ -899,6 +899,80 @@
        
       }
       </script>
+
+      <script>
+        function setColor(btn, color) {
+            var property = document.getElementById(btn);
+            if (btn == "button6"){
+              property.style.color = "#c21e28"
+              var prop1 = document.getElementById("button1");
+              var prop2 = document.getElementById("button2");
+              var prop3 = document.getElementById("button3");
+              var prop4 = document.getElementById("button4");
+
+              prop1.style.color = ""
+              prop2.style.color = ""
+              prop3.style.color = ""
+              prop4.style.color = ""
+
+            }
+
+            else if (btn == "button1"){
+              property.style.color = "#c21e28"
+              var prop6 = document.getElementById("button6");
+              var prop2 = document.getElementById("button2");
+              var prop3 = document.getElementById("button3");
+              var prop4 = document.getElementById("button4");
+
+              prop6.style.color = ""
+              prop2.style.color = ""
+              prop3.style.color = ""
+              prop4.style.color = ""
+            }
+
+            else if (btn == "button2"){
+              property.style.color = "#c21e28"
+              var prop6 = document.getElementById("button6");
+              var prop1 = document.getElementById("button1");
+              var prop3 = document.getElementById("button3");
+              var prop4 = document.getElementById("button4");
+
+              prop6.style.color = ""
+              prop1.style.color = ""
+              prop3.style.color = ""
+              prop4.style.color = ""
+            }
+
+            else if (btn == "button3"){
+              property.style.color = "#c21e28"
+              var prop6 = document.getElementById("button6");
+              var prop1 = document.getElementById("button1");
+              var prop2 = document.getElementById("button2");
+              var prop4 = document.getElementById("button4");
+
+              prop6.style.color = ""
+              prop1.style.color = ""
+              prop2.style.color = ""
+              prop4.style.color = ""
+            }
+            
+            else if (btn == "button4"){
+              property.style.color = "#c21e28"
+              var prop6 = document.getElementById("button6");
+              var prop1 = document.getElementById("button1");
+              var prop3 = document.getElementById("button3");
+              var prop2 = document.getElementById("button2");
+
+              prop6.style.color = ""
+              prop1.style.color = ""
+              prop3.style.color = ""
+              prop2.style.color = ""
+            }
+          
+            
+            
+        }
+    </script>
     <!-- jQuery -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
 
