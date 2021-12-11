@@ -965,7 +965,7 @@ header
   line-height: 36px;
   border: transparent;
 }
-.header-area .main-nav .nav li a:hover {
+.header-area .main-nav .nav li a:hover,  .header-area .main-nav .nav li a:active{
   color: #c21e28 !important;
 }
 .header-area .main-nav .nav li a.btn-nav-line {
@@ -1279,9 +1279,7 @@ header
   }
 }
 
-#header_links li.active{
-  color: #c21e28 !important;
-}
+
 .selected{
   color: #c21e28 !important;
   background: #FFF !important;
@@ -1366,9 +1364,7 @@ header
     background: #fff !important;
     color: #0b1217 !important;
   }
-  .header-area .main-nav .nav li a:hover {
-    background: #f5f5f5 !important;
-  }
+
   .header-area .main-nav .lang {
     margin-top: 22px !important;
     margin-left: 0px;
